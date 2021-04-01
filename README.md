@@ -1,21 +1,24 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Sistemas de Informação`
 
 `DISCIPLINA`
 
-`SEMESTRE`
+`1º Semestre`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-- Obi-Wan Kenobi 
-- Anakin Skywalker
+- Enzo
+- Danillo Pedro
+- Patrick Magalhães Robaina 
+
+
 
 ## Professor
 
-- Mestre Yoda
+- Fábio Martins De Oliveira
 
 # Documentação
 
