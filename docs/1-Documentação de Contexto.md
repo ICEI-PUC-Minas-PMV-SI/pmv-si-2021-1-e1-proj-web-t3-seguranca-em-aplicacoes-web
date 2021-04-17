@@ -3,11 +3,8 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Na hora de organizar e aplicar um projeto de segurança dentro de uma infraestrutura é comum os indivíduos se perderem em meio ao o que fazer. A necessidade de uma ferramenta para o auxilio dessa tarefa se torna real ainda mais para empresas a procura de certificações e buscando um ambiente virtual mais seguro, a aplicação sera usada para realizar esse "Check-List".
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -16,28 +13,26 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo e desenvolver um WebApp que fará a organização e arquitetura basíca de um projeto de segurança de informação. O site irá ajudar o usuario com um "norte" ou começo para implementação do projeto, salvando o progresso e mantendo os mesmos atualizados com todos os avanços e mudanças ocorridas durante esse processo.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+A ideia é uma "Check-List" interativa, focada e que priorize o que é importante para um ambiente seguro dentro da internet.
+Outro objetivo é dar opções para os usuarios, certificações diversas como ISO 27001 e 27002 entre outras, além de uma ideia geral do que é um sistema que consegue manter Integridade, Disponibilidade e Confidencialidade.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Todo erro pode causar uma vulnerabilidade e/ou potencial ameaça para um sistema, e como seres humanos sempre irão errar, um WebApp como esse irá diminuir a quantidade de erros dentro desse sistema.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+É visto criminosos virtuais e indivíduos mal intencionados agem conforme o erro das empresas, é assim que ocorrem ataques e roubo de informações confidenciais. Esses erros muitas vezes são encontrados na hora de implementar os projetos de segurança. Uma ferramenta que auxilia os envolvidos reduz a probabilidade de erros que podem comprometer a CIA(Integridade, Disponibilidade e Confidencialidade).
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Empresários de grande a pequeno porte que procuram aumentar a segurança dentro de seu sistema ou que procuram alguma certificação, administradores de equipes de segurança de informação que frequentemente estão lidando com implementação de projetos e soluções para seus contratantes, coordenadores de projetos que vão ou já estão envolvidos em algum projeto em respeito a segurança virtual, donos de sites autonomos que procuram o polimento da segurança de seu site.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
