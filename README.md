@@ -1,12 +1,12 @@
-# TÍTULO DO PROJETO
+# Auxiliador de implementação de projetos de Segurança de Informação(Check-SI)
 
 `Sistemas de Informação`
 
-`DISCIPLINA`
+`Projeto: Aplicações Web`
 
 `1º Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Sistema Web de suporte a profissionais da área e entusiastas a cumprir requisitos de Segurança da Informação em suas aplicações e sistemas.
 
 ## Integrantes
 
