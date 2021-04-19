@@ -8,7 +8,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Augustus tem 30 anos, é formado em Sistemas de Informação e trabalha com projetos de segurança da informação, pois essa área o deixa fascinado. Ele é metódico e troca suas senhas periodicamente. Augustus participa de vários projetos de SI simultaneamente e faz todos os registros em uma planilha. Isso faz com que ele encontre certa dificuldade para enviar feedbacks aos seus clientes e as vezes ele se sente perdido sem saber ao certo de onde deve continuar. Ele busca uma ferramenta que o auxilie nesse processo dar retorno aos seus clientes e ao mesmo tempo gerenciar melhor seus projetos de SI. 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
