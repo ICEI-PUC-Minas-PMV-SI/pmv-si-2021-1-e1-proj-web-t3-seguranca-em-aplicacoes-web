@@ -8,7 +8,9 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Augustus tem 30 anos, é formado em Sistemas de Informação e trabalha com projetos de segurança da informação, pois essa área o deixa fascinado. Ele é metódico e troca suas senhas periodicamente. Augustus participa de vários projetos de SI simultaneamente e faz todos os registros em uma planilha. Isso faz com que ele encontre certa dificuldade para enviar feedbacks aos seus clientes e as vezes ele se sente perdido sem saber ao certo de onde deve continuar. Ele busca uma ferramenta que o auxilie nesse processo dar retorno aos seus clientes e ao mesmo tempo gerenciar melhor seus projetos de SI. 
+Augustus tem 30 anos, é formado em Sistemas de Informação e trabalha com projetos de segurança da informação, pois essa área o deixa fascinado. Ele é metódico e troca suas senhas periodicamente. Augustus participa de vários projetos de SI simultaneamente e faz todos os registros em uma planilha. Isso faz com que ele encontre certa dificuldade para enviar feedbacks aos seus clientes e as vezes ele se sente perdido sem saber ao certo de onde deve continuar. Ele busca uma ferramenta que o auxilie nesse processo dar retorno aos seus clientes e ao mesmo tempo gerenciar melhor seus projetos de SI.
+
+Ana Beatriz, 25 anos, é recém-formada no curso de Tecnologia em Segurança da Informação, está em busca de algumas certificações e de aprimorar-se mais na área, apesar disso ela já atua na área de segurança da informação dando consultoria para pequenas empresas e fazendo adequações de segurança da informação para elas. 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
