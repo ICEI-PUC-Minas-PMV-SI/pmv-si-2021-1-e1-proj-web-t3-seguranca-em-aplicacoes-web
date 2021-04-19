@@ -12,6 +12,8 @@ Augustus tem 30 anos, é formado em Sistemas de Informação e trabalha com proj
 
 Ana Beatriz, 25 anos, é recém-formada no curso de Tecnologia em Segurança da Informação, está em busca de algumas certificações e de aprimorar-se mais na área, apesar disso ela já atua na área de segurança da informação dando consultoria para pequenas empresas e fazendo adequações de segurança da informação para elas. 
 
+Miguel tem 23 anos, é técnico em informática, possui muita habilidade em programação e recentemente começou a trabalhar com Segurança da Informação, fazendo testes de vulnerabilidades em sistemas web, redes de computadores locais e participando de projetos de implantação de Segurança da Informação. Ele deseja ter uma ferramenta que o guie em cada etapa quando estiver implantando projetos. 
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
