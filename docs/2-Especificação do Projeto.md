@@ -2,9 +2,11 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Este documento tem a finalidade de apresentar as personas deste projeto, que seriam pessoas as quais teriam suas demandas satisfeitas com este sistema Web. As técnicas e ferramentas utilizadas são o brainstorming e análise de necessidades do mercado e dos próprios desenvolvedores para montar os perfis. 
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Também são definidos os requisitos funcionais e os não funcionais, que foram concebidos com a análise citada anteriormente. Nesta etapa, foi feita uma reflexão com base na demanda crescente por serviços que norteem boas práticas de Segurança da Informação.
+
+As restrições desse projeto consistem em ter o prazo de ser concluído até o final do semestre e não ser desenvolvido um módulo backend para ele.
 
 ## Personas
 
