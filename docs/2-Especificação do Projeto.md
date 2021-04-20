@@ -4,7 +4,7 @@
 
 Este documento tem a finalidade de apresentar as personas deste projeto, que seriam pessoas as quais teriam suas demandas satisfeitas com este sistema Web. As técnicas e ferramentas utilizadas são o brainstorming e análise de necessidades do mercado e dos próprios desenvolvedores para montar os perfis. 
 
-Também são definidos os requisitos funcionais e os não funcionais, que foram concebidos com a análise citada anteriormente. Nesta etapa, foi feita uma reflexão com base na demanda crescente por serviços que norteem boas práticas de Segurança da Informação.
+Também são definidos os requisitos funcionais e os não funcionais, que foram concebidos com a análise citada anteriormente. Nesta etapa, foi feita uma reflexão com base na demanda crescente por serviços que norteiem boas práticas de Segurança da Informação.
 
 As restrições desse projeto consistem em ter o prazo de ser concluído até o final do semestre e não ser desenvolvido um módulo backend para ele.
 
