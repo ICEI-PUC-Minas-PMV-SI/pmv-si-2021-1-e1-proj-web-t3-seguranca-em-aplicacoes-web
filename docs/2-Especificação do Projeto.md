@@ -34,8 +34,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do sistema  | Checklist de ações de Segurança da Informação           | Não esquecer de fazer alguma ação.               |
+|Usuário do sistema      | Orientação sobre ações de Segurança da Informação                 | Saber quais ações tomar; quais certificações adquirir e com emissores confiáveis. |
+|Administrador       | Modificar a informação disponível para os usuários pertinentes ao sistema Web                 | Constantemente estar atualizando o sistema quanto a novas informações, procedimentos e certificações. |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
