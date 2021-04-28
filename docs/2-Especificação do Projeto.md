@@ -65,8 +65,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Funcionar em dispositivos móveis e em computadores. | MÉDIA | 
+|RNF-002| Ter uma wiki ou um repositório de links ou arquivos a respeito da Segurança da Informação. |  BAIXA | 
+|RNF-003| Interface intuitiva e minimalista. |  MÉDIA | 
+|RNF-004| Autenticação de multiplos fatores. |  ALTA | 
+|RNF-005| Alerta para usuários dentro projeto sobre modificações e alterações no mesmo, feito por e-mail. |  MÉDIA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
