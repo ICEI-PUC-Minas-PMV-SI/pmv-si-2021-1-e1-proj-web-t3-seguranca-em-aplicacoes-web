@@ -39,7 +39,9 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+- `Project Owner`: Enzo Pyló 
+- `Scrum Master`: Patrick Magalhões Robaina 
+- `Dev Team`: Danillo Pedro e José Filipe Rocha
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
@@ -48,7 +50,7 @@ Apresente a divisão de papéis entre os membros do grupo.
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+O grupo irá utilizar os quadros de projeto dentro do GitHub para o acompanhamento, execução de tarefas e status de desenvolvimento da solução.
  
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
@@ -61,8 +63,10 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 As ferramentas empregadas no projeto são:
 
 - Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de diagramação
+- Ferramentas de comunicação:
+  [Github](https://github.com/)
+- Ferramentas de diagramação:
+  [Miro](https://miro.com/app/dashboard/)
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
@@ -70,8 +74,3 @@ integração semelhante e por isso foram selecionadas. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
