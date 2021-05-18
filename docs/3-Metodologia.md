@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia será feita com base em problemas reais e irá seguir um formato especifico para assegurar a segurança e confiabilidade da aplicação. O principal ambiente de trabalho é atualmente o GitHub, onde serão atribuídas as necessárias funções e processos a todos os membros da equipe. Outras ferramentas e ambientes virão apenas de complemento. A gestão do código fonte será feita pelo `Product Owner` e subsequente `Scrum Master` e `Dev Team`.   
 
 ## Controle de Versão
 
@@ -26,7 +26,6 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
 > **Links Úteis**:
 > - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
@@ -40,7 +39,7 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 ### Divisão de Papéis
 
 - `Project Owner`: Enzo Pyló 
-- `Scrum Master`: Patrick Magalhões Robaina 
+- `Scrum Master`: Patrick Magalhães Robaina 
 - `Dev Team`: Danillo Pedro e José Filipe Rocha
 
 > **Links Úteis**:
@@ -50,7 +49,7 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Processo
 
-O grupo irá utilizar os quadros de projeto dentro do GitHub para o acompanhamento, execução de tarefas e status de desenvolvimento da solução.
+O grupo irá utilizar os quadros de projeto dentro do GitHub para o acompanhamento, execução de tarefas e status de desenvolvimento da solução. Desta forma, será possível ter uma visão holística do processo por todos os membros, assim dificuldades ou etapas que não se desenvolvem poderão ser vistas por todos e solucionadas.
  
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
@@ -64,13 +63,11 @@ As ferramentas empregadas no projeto são:
 
 - Editor de código.
 - Ferramentas de comunicação:
-  [Github](https://github.com/)
+  [Github](https://github.com/), 
+  Whats App
 - Ferramentas de diagramação:
   [Miro](https://miro.com/app/dashboard/)
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+O editor de código não foi escolhido porque o código ainda não começou a ser feito. Será escolhido assim que o `Dev Team` começar a codificar as soluções, pois o editor de código deve se encaixar a demanda da equipe e sua forma de trabalhar. As ferramentas de comunicação foram escolhidas devido a versatilidade e ao mesmo tempo pela formalidade. O Whats App para ideias e Brainstorming e o Github para manter o prazo das etapas. Por fim, para criar
+diagramas utilizamos o Miro por termos nos adaptado melhor a mexer com ele do que outras ferramentas de diagramação.
 
