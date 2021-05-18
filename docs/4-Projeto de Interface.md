@@ -22,19 +22,19 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![1-HOME](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/presentation/1%20-%20Home.jpeg)
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![2-CADASTRO](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/presentation/2%20-%20Cadastro.jpeg)
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![3-Checklist](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/presentation/3%20-%20Checklist.jpg)
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![4-Orientações](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/presentation/4%20-%20Orienta%C3%A7%C3%B5es_SI.jpg)
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![5-Parceiros](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/presentation/5%20-%20Parceiros%20Confiaveis.jpg)
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![6-Escolha da Certificação](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/presentation/6%20-%20Escolha%20da%20Certificacao.jpg)
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Configurações](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/presentation/7%20-%20Configura%C3%A7%C3%B5es.jpg)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
