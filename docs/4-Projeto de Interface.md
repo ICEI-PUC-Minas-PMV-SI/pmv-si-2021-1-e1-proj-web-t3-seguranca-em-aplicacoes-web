@@ -5,7 +5,8 @@
 
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+Com base em uma interface minimalista, a pagina que conterá a "Checklist" será limpa e dará ao usuário opções para utilizar uma checklis padrão, adicionar itens ou remover. Nessa interface, assim como nas outras, tanto um usuário com muita experiencia em Segurança da Informação quanto outro com pouca experiencia terão facilidade em utilizar a solução. O usuário poderá navegar para outras interfaces com por exemplo "Orientações Sobre Nedidas de Seguranças da Informação", Selecionar informações sobre determinadas certificações para que a "Checklist" auxilie na padronizações de acordo com alguma ISO. 
+ 
 
 ## User Flow
 
