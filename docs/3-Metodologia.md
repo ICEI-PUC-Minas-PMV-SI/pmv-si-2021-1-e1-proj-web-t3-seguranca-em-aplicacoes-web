@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-A metodologia será feita com base em problemas reais e irá seguir um formato especifico para assegurar a segurança e confiabilidade da aplicação. O principal ambiente de trabalho é atualmente o GitHub, onde serão atribuídas as necessárias funções e processos a todos os membros da equipe. Outras ferramentas e ambientes virão apenas de complemento. A gestão do código fonte será feita pelo `Product Owner` e subsequente `Scrum Master` e `Dev Team`.   
+A metodologia será feita com base em problemas reais e irá seguir um formato especifico para assegurar a segurança e confiabilidade da aplicação. O projeto foi dividido em 5 sprints, sendo cada sprint contendo o planejamento, retrospectiva, revisão e implementação. O principal ambiente de trabalho é atualmente o GitHub, onde serão atribuídas as necessárias funções e processos a todos os membros da equipe. Outras ferramentas e ambientes virão apenas de complemento. A gestão do código fonte será feita pelo `Product Owner` e subsequente `Scrum Master` e `Dev Team`.   
 
 ## Controle de Versão
 
