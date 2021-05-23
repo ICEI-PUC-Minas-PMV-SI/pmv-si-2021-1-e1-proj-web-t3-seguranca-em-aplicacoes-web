@@ -14,7 +14,7 @@ Outro objetivo é dar opções para os usuários, certificações diversas como 
  
 ## Justificativa
 
-Todo erro pode causar uma vulnerabilidade e/ou potencial ameaça para um sistema, e como seres humanos sempre irão errar, um WebApp que guia as pessoas sobre quais etapas seguir para não permitir brechas de segurança irá ajudar a diminuir a quantidade de erros dentro desse sistema.
+Todo erro pode causar uma vulnerabilidade e/ou potencial ameaça para um sistema, e como seres humanos sempre irão errar, um WebApp que guia as pessoas sobre quais etapas seguir para dar uma base maior em respeito da segurança irá auxiliar melhor o sistema.
 
 Sabe-se que criminosos virtuais e indivíduos mal intencionados agem conforme o erro das empresas, é assim que ocorrem ataques e roubo de informações confidenciais. Esses erros muitas vezes são encontrados na hora de implementar os projetos de segurança. Uma ferramenta que orienta os envolvidos reduz a probabilidade de erros que podem comprometer a CIA(Integridade, Disponibilidade e Confidencialidade).
 
