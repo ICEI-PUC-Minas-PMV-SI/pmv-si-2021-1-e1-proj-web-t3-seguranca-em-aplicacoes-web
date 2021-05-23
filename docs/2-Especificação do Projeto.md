@@ -58,7 +58,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| Usuários poderem preencher Checklists sobre ações de Segurança da Informação. | ALTA | 
 |RF-002| Orientação sobre quais medidas de Segurança de Informação devem ser feitas. | BAIXA |
 |RF-003| Dar opções aos usuários de selecionar Certificações especificas ou apenas consultorias em respeito à segurança virtual. | ALTA |
-|RF-004| Criar a possibilidade de usuários compartilharem suas tabelas com colegas de equipe. | MÉDIA |
+|RF-004| Criar a possibilidade de usuários compartilharem o progresso de seus projetos com outras pessoas e colegas de equipe. | MÉDIA |
 
 ### Requisitos não Funcionais
 
