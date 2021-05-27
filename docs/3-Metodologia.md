@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-A metodologia será feita com base em problemas reais e irá seguir um formato especifico para assegurar a segurança e confiabilidade da aplicação. O projeto foi dividido em 5 sprints, sendo cada sprint contendo o planejamento, retrospectiva, revisão e implementação. O principal ambiente de trabalho é atualmente o GitHub, onde serão atribuídas as necessárias funções e processos a todos os membros da equipe. Outras ferramentas e ambientes virão apenas de complemento. A gestão do código fonte será feita pelo `Product Owner` e subsequente `Scrum Master` e `Dev Team`.   
+A metodologia será feita com base em problemas reais e irá seguir um formato especifico para assegurar a segurança e confiabilidade da aplicação. O principal ambiente de trabalho é atualmente o GitHub, onde serão atribuídas as necessárias funções e processos a todos os membros da equipe. Outras ferramentas e ambientes virão apenas de complemento. A gestão do código fonte será feita pelo `Product Owner` e subsequente `Scrum Master` e `Dev Team`.   
 
 ## Controle de Versão
 
@@ -39,7 +39,7 @@ etiquetas:
 
 ### Processo
 
-O grupo irá utilizar os quadros de projeto dentro do GitHub para o acompanhamento, execução de tarefas e status de desenvolvimento da solução. Desta forma, será possível ter uma visão holística do processo por todos os membros, assim dificuldades ou etapas que não se desenvolvem poderão ser vistas por todos e solucionadas.
+O grupo irá utilizar os quadros de projeto dentro do GitHub para o acompanhamento, execução de tarefas e status de desenvolvimento da solução. O projeto foi dividido em 5 sprints, sendo cada sprint contendo o planejamento, retrospectiva, revisão e implementação. Desta forma, será possível ter uma visão holística do processo por todos os membros, assim dificuldades ou etapas que não se desenvolvem poderão ser vistas por todos e solucionadas.
  
 
 ### Ferramentas
