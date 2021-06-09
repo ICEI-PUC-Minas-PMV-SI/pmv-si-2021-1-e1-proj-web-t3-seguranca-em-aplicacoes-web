@@ -16,7 +16,7 @@ A partir da pagina "Home" o usuário terá opção de se cadastrar e criar um lo
 "Pagina de Indicação de Parceiros": Será possivel encontrar algumas empresas certificadoras das ISOs 27001 e 27002
 "Pagina Orientações Segurança Informação": Contem Orientações gerais sobre Segurança da Informação e certificações de segurança da informação. 
 
-![Exemplo de UserFlow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/UserFlow_SI.png.png)
+![Exemplo de UserFlow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/docs/img/photoshop%20User_Flow2.png)
 
 No site será possivel navegar para as seguintes paginas: 
 
