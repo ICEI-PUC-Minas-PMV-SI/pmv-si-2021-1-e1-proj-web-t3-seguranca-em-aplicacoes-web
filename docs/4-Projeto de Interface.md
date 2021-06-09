@@ -15,7 +15,6 @@ A partir da pagina "Home" o usuário terá opção de se cadastrar e criar um lo
 "Pagina de Cadastro": O usuário cadastrará um login de acesso. 
 "Pagina de Indicação de Parceiros": Será possivel encontrar algumas empresas certificadoras das ISOs 27001 e 27002
 "Pagina Orientações Segurança Informação": Contem Orientações gerais sobre Segurança da Informação e certificações de segurança da informação. 
-"Pagina Selecionar Certificação": 
 
 ![Exemplo de UserFlow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/UserFlow_SI.png.png)
 
@@ -29,4 +28,4 @@ A pagina "Home" é composta por um breve texto sobre "Quem Somos", relato de nos
 
 ![3-Checklist](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/docs/img/Checklist_si.png)
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+
