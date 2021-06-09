@@ -10,12 +10,19 @@ Com base em uma interface minimalista, a pagina que conterá a "Checklist" será
 
 ## User Flow
 
+A partir da pagina "Home" o usuário terá opção de se cadastrar e criar um login de acesso à Checklist; além disso é possivel navegar para outras paginas:
+"Pagina Login": O usuário entrará com o login e senha criados na página de Cadastro
+"Pagina de Cadastro": O usuário cadastrará um login de acesso. 
+"Pagina de Indicação de Parceiros": Será possivel encontrar algumas empresas certificadoras das ISOs 27001 e 27002
+"Pagina Orientações Segurança Informação": Contem Orientações gerais sobre Segurança da Informação e certificações de segurança da informação. 
+"Pagina Selecionar Certificação": 
+
 ![Exemplo de UserFlow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/UserFlow_SI.png.png)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+No site será possivel navegar para as seguintes paginas: 
 
 ## Protótipos
-
+A pagina "Home" é composta por um breve texto sobre "Quem Somos", relato de nossos clientes e informações para contato. 
 ![1-HOME](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/docs/img/Home_SI.png)
 
 ![2-CADASTRO](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/docs/img/CriarLoginAcesso_SI.png)
