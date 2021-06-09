@@ -24,8 +24,12 @@ No site será possivel navegar para as seguintes paginas:
 A pagina "Home" é composta por um breve texto sobre "Quem Somos", relato de nossos clientes e informações para contato. 
 ![1-HOME](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/docs/img/Home_SI.png)
 
-![2-CADASTRO](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/docs/img/CriarLoginAcesso_SI.png)
+![2-CADASTRO](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/docs/img/CriarLoginAcesso.png)
 
-![3-Checklist](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/docs/img/Checklist_si.png)
+![3-Checklist](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/docs/img/Checklist.png)
+
+![4-ORIENTACOES](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/docs/img/Orienta%C3%A7%C3%B5es.png)
+
+![5-PARCEIROS](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-seguranca-em-aplicacoes-web/blob/main/docs/img/Parceiros.png)
 
 
