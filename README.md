@@ -12,7 +12,6 @@ Sistema Web de suporte a profissionais da área e entusiastas a cumprir requisit
 
 - Enzo Pyló
 - Danillo Pedro dos Santos
-- José Filipe Rocha da Silva Oliveira
 - Patrick Magalhães Robaina 
 
 
