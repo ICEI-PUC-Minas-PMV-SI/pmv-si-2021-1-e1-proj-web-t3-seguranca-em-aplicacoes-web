@@ -1,15 +1,27 @@
+<<<<<<< HEAD
 .checklist {
     position: relative;
     width: 100%;
     padding: 45px 0;
+=======
+/* .checklist {
+    padding: 45px 0;
+
+>>>>>>> 4e43a3e72617b90546146714dfe90491519e4190
 }
 
 .checklist .section-header {
     margin-bottom: 30px;
     margin-left: 0;
+<<<<<<< HEAD
 }
 
 .checklist .checklist-img {
+=======
+} */
+
+/* .checklist .checklist-img {
+>>>>>>> 4e43a3e72617b90546146714dfe90491519e4190
     position: relative;
     height: 100%;
 }
@@ -41,15 +53,61 @@
 .checklist .checklist-text a.btn:hover {
     color: #343148;
     background: #F7CAC9;
+<<<<<<< HEAD
 }
 
 @media (max-width: 767.98px) {
+=======
+} */
+
+/* @media (max-width: 767.98px) {
+>>>>>>> 4e43a3e72617b90546146714dfe90491519e4190
     .checklist .checklist-img {
         margin-bottom: 30px;
         height: auto;
     }
+<<<<<<< HEAD
 }
 
+=======
+} */
+
+
+/*//////// CHECKLIST ////////*/
+.container {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.content-checklist {
+    padding: 20px;
+    width: 70vw;
+    overflow: hidden;
+    border-radius: none;
+    background-color: #f1f1f1;
+
+}
+
+.collapsible {
+    background-color: rgb(17, 163, 173);
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+    height: 60px;
+    width: 70vw;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-top: 10px;
+    
+    
+  }
+  .active, .collapsible:hover {
+    background-color: rgb(14, 123, 131);
+  }
+
+>>>>>>> 4e43a3e72617b90546146714dfe90491519e4190
 /**********************************/
 /*********** Nav Bar CSS **********/
 /**********************************/
@@ -92,10 +150,17 @@
         max-height: 40px;
     }
 
+<<<<<<< HEAD
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
+=======
+    .navbar-dark .navbar-nav .nav-link,
+    .navbar-dark .navbar-nav .nav-link:focus,
+    .navbar-dark .navbar-nav .nav-link:hover,
+    .navbar-dark .navbar-nav .nav-link.active {
+>>>>>>> 4e43a3e72617b90546146714dfe90491519e4190
     padding: 10px 10px 8px 10px;
     color: #ffffff;
 }
@@ -278,7 +343,11 @@
     }
 }
 
+<<<<<<< HEAD
 /*header CSS */
+=======
+/* header CSS
+>>>>>>> 4e43a3e72617b90546146714dfe90491519e4190
 .page-header {
     position: relative;
     margin-bottom: 45px;
@@ -328,7 +397,11 @@
     .page-header a {
         font-size: 18px;
     }
+<<<<<<< HEAD
 }
+=======
+} */
+>>>>>>> 4e43a3e72617b90546146714dfe90491519e4190
 
 /*******************************/
 /********* Footer CSS **********/
