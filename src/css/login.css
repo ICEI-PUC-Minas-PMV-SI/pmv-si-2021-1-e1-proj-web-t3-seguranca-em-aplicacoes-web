@@ -364,8 +364,28 @@ a:focus {
      margin-bottom: 20px;
      padding-bottom: 10px;
  } */
-
-
+.btn-access {
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #1A8D8F;
+    color: #ffffff;
+}
+.btn-create {
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #1A8D8F;
+    color: #ffffff;
+}
+.btn-access:hover {
+    background-color: #177c7e;
+}
+.btn-create:hover {
+    background-color: #177c7e;
+}
 /*******************************/
 /********* Footer CSS **********/
 /*******************************/
