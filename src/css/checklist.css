@@ -75,9 +75,10 @@
     
     
   }
-  .active, .collapsible:hover {
+.collapsible:hover {
     background-color: rgb(14, 123, 131);
   }
+
 
 #btn-logout {
     border: solid 1px;
@@ -193,7 +194,6 @@
         box-shadow: none;
     }
 }
-
 
 /*******************************/
 /********** Hero CSS ***********/
