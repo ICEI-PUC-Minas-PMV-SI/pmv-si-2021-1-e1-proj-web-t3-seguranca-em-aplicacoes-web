@@ -1,42 +1,24 @@
-<<<<<<< HEAD
-.checklist {
-    position: relative;
-    width: 100%;
-    padding: 45px 0;
-=======
 /* .checklist {
     padding: 45px 0;
-
->>>>>>> 4e43a3e72617b90546146714dfe90491519e4190
 }
-
 .checklist .section-header {
     margin-bottom: 30px;
     margin-left: 0;
-<<<<<<< HEAD
-}
-
-.checklist .checklist-img {
-=======
 } */
 
 /* .checklist .checklist-img {
->>>>>>> 4e43a3e72617b90546146714dfe90491519e4190
     position: relative;
     height: 100%;
 }
-
 .checklist .checklist-img img {
     position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 .checklist .checklist-text p {
     font-size: 16px;
 }
-
 .checklist .checklist-text a.btn {
     position: relative;
     margin-top: 15px;
@@ -49,27 +31,16 @@
     border-radius: 0;
     transition: .3s;
 }
-
 .checklist .checklist-text a.btn:hover {
     color: #343148;
     background: #F7CAC9;
-<<<<<<< HEAD
-}
-
-@media (max-width: 767.98px) {
-=======
 } */
 
 /* @media (max-width: 767.98px) {
->>>>>>> 4e43a3e72617b90546146714dfe90491519e4190
     .checklist .checklist-img {
         margin-bottom: 30px;
         height: auto;
     }
-<<<<<<< HEAD
-}
-
-=======
 } */
 
 
@@ -107,7 +78,6 @@
     background-color: rgb(14, 123, 131);
   }
 
->>>>>>> 4e43a3e72617b90546146714dfe90491519e4190
 /**********************************/
 /*********** Nav Bar CSS **********/
 /**********************************/
@@ -117,59 +87,53 @@
     z-index: 999;
 }
 
-    .navbar.nav-sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
-    }
+.navbar.nav-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+}
 
-    .navbar .navbar-brand {
-        margin: 0;
-        color: #ffffff;
-        font-size: 45px;
-        line-height: 0px;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        transition: .5s;
-    }
+.navbar .navbar-brand {
+    margin: 0;
+    color: #ffffff;
+    font-size: 45px;
+    line-height: 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .5s;
+    
+}
 
-        .navbar .navbar-brand span {
-            color: #1A8D8F;
-            text-transform: lowercase;
-            transition: .5s;
-        }
+.navbar .navbar-brand span {
+    color: #1A8D8F;
+    text-transform: lowercase;
+    transition: .5s;
+}
 
-    .navbar.nav-sticky .navbar-brand span {
-        color: #ffffff;
-    }
+.navbar.nav-sticky .navbar-brand span {
+    color: #ffffff;
+}
 
-    .navbar .navbar-brand img {
-        max-width: 100%;
-        max-height: 40px;
-    }
+.navbar .navbar-brand img {
+    max-width: 100%;
+    max-height: 40px;
+}
 
-<<<<<<< HEAD
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-=======
-    .navbar-dark .navbar-nav .nav-link,
-    .navbar-dark .navbar-nav .nav-link:focus,
-    .navbar-dark .navbar-nav .nav-link:hover,
-    .navbar-dark .navbar-nav .nav-link.active {
->>>>>>> 4e43a3e72617b90546146714dfe90491519e4190
     padding: 10px 10px 8px 10px;
     color: #ffffff;
 }
 
-    .navbar-dark .navbar-nav .nav-link:hover,
-    .navbar-dark .navbar-nav .nav-link.active {
-        background: rgba(256, 256, 256, .1);
-        transition: none;
-    }
+.navbar-dark .navbar-nav .nav-link:hover,
+/* .navbar-dark .navbar-nav .nav-link.active {
+    background: rgba(256, 256, 256, .1);
+    transition: none;
+} */
 
 .navbar .dropdown-menu {
     margin-top: 0;
@@ -187,38 +151,39 @@
         background: rgba(0, 0, 0, .1) !important;
         z-index: 9;
     }
-
-        .navbar.nav-sticky {
-            padding: 10px 60px;
-            background: #1A8D8F !important;
-        }
-
-        .navbar a.nav-link {
-            padding: 8px 15px;
-            font-size: 14px;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-        }
+    
+    .navbar.nav-sticky {
+        padding: 10px 60px;
+        background: #1A8D8F !important;
+    }
+    
+    .navbar a.nav-link {
+        padding: 8px 15px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
         background: #1A8D8F !important;
     }
-
-        .navbar .navbar-brand span {
-            color: #ffffff;
-        }
-
-        .navbar a.nav-link {
-            padding: 5px;
-        }
-
-        .navbar .dropdown-menu {
-            box-shadow: none;
-        }
+    
+    .navbar .navbar-brand span {
+        color: #ffffff;
+    }
+    
+    .navbar a.nav-link {
+        padding: 5px;
+    }
+    
+    .navbar .dropdown-menu {
+        box-shadow: none;
+    }
 }
+
 
 /*******************************/
 /********** Hero CSS ***********/
@@ -343,11 +308,7 @@
     }
 }
 
-<<<<<<< HEAD
-/*header CSS */
-=======
 /* header CSS
->>>>>>> 4e43a3e72617b90546146714dfe90491519e4190
 .page-header {
     position: relative;
     margin-bottom: 45px;
@@ -355,25 +316,21 @@
     text-align: center;
     background: #001136c5;
 }
-
     .page-header h2 {
         position: relative;
         color: #1f1d2c;
         font-size: 60px;
         font-weight: 700;
     }
-
     .page-header a {
         position: relative;
         padding: 0 12px;
         font-size: 22px;
         color: #10101688;
     }
-
         .page-header a:hover {
             color: #ffffff;
         }
-
         .page-header a::after {
             position: absolute;
             content: "/";
@@ -384,24 +341,17 @@
             text-align: center;
             color: #000000;
         }
-
         .page-header a:last-child::after {
             display: none;
         }
-
 @media (max-width: 767.98px) {
     .page-header h2 {
         font-size: 35px;
     }
-
     .page-header a {
         font-size: 18px;
     }
-<<<<<<< HEAD
-}
-=======
 } */
->>>>>>> 4e43a3e72617b90546146714dfe90491519e4190
 
 /*******************************/
 /********* Footer CSS **********/

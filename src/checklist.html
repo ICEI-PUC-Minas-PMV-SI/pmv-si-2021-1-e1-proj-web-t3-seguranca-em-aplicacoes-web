@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,6 +6,7 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
+        <script src="/js/login.js"></script>
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -24,6 +24,25 @@
 
         <!-- Template Stylesheet -->
         <link href="css/checklist.css" rel="stylesheet">
+        <script>
+            if (!usuarioCorrente.login) {
+                window.location.href = LOGIN_URL;
+            }
+            function initPage() {
+
+            // Associa a função de logout ao botão
+            document.getElementById('btn_logout').addEventListener('click', logoutUser);
+
+            // Informa o nome do usuário logado
+            document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome;
+
+            // Lista os usuários 
+            exibeUsuarios ();
+            }
+
+            // Associa ao evento de carga da página a função para verificar se o usuário está logado
+            window.addEventListener('load', initPage);
+        </script>
     </head>
 
     <body>
@@ -38,20 +57,11 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <!-- <a href="checklist.html" class="nav-item nav-link">checklist</a> -->
                     <a href="service.html" class="nav-item nav-link">Orientações</a>
                     <a href="certificacao.html" class="nav-item nav-link">Certificações</a>
-                    <!-- <a href="class.html" class="nav-item nav-link">Class</a> -->
-                    <a href="login.html" class="nav-item nav-link">Login</a>
-                    <a href="cadastro.html" class="nav-item nav-link">Cadastre-se</a>
+                    <a href="checklist.html" class="nav-item nav-link">Checklists</a>
                     <div class="nav-item dropdown">
-                        <!-- <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a> -->
-                        <!-- <div class="dropdown-menu">
-                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                            <a href="single.html" class="dropdown-item">Blog Detail</a>
-                        </div> -->
                     </div>
-                    <!-- <a href="contact.html" class="nav-item nav-link">Contato</a> -->
                 </div>
             </div>
         </div>
@@ -69,105 +79,257 @@
                 </div>
                 <div class="col-sm-12 col-md-6 d-none d-md-block">
                     <div class="hero-image">
-                        <!-- <img src="img/hero.png" alt="Hero Image"> -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Hero End -->
-
+    
         <!-- checklist Start -->
+        <button id="btn_logout">Efetuar Logout</button>
         <div class="checklist wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5 col-md-6">
+                    <button class="collapsible">ISO 27001</button>
+                    <div class="content-checklist">
+                        <p>Checklist da Norma ISO 27.001</p>
+                        <h2>Aquisição, desenvolvimento e manutenção de sistemas de informação</h2>
+                        <br>Realizou a implantação de Controles criptográficos? <input type="checkbox"> <br/>
+                        <br>Definiu um plano para gestão de vulnerabilidades técnicas? <input type="checkbox"> <br/>
+                        <br>Realizou analise quanto ao processamento correto de aplicações? <input type="checkbox"> <br/>
+                        <br>Realizou analise de requisitos para segurança de Sistemas de Informação? <input type="checkbox"> <br/>
+                        <br>Realizou plano de segurança para os arquivos do sistema? <input type="checkbox"> <br/>
+                        <br>Definiu Escopo para segurança em processos de desenvolvimento e de suporte? <input type="checkbox"> <br/>
+                        <br/>
+                        <br/>
+                        <h2>Conformidade</h2>
+                        <br>Realizou termo de conformidade com normas e políticas de Segurança de Informação e conformidade técnica? <input type="checkbox"> <br/>
+                        <br>Realizou termo de conformidade com requisitos legais? <input type="checkbox"> <br/>
+                        <br>Realizou termo de considerações quanto à auditoria de Sistemas de Informação? <input type="checkbox"> <br/>
+                        <br/>
+                        <br/>
+                        <h2>Controle de acessos</h2>
+                        <br>Definiu plano de controle de acessos para computação móvel e trabalho remoto? <input type="checkbox"> <br/>
+                        <br>Definiu plano de controle de acesso à aplicação e à informação? <input type="checkbox"> <br/>
+                        <br>Definiu plano de controle de acesso à rede? <input type="checkbox"> <br/>
+                        <br>Definiu plano de controle de acesso ao sistema operacional? <input type="checkbox"> <br/>
+                        <br>Definiu plano de gerenciamento de acesso do usuário? <input type="checkbox"> <br/>
+                        <br>Realizou levantamento de requisitos de negócio para controle de acesso? <input type="checkbox"> <br/>
+                        <br>Realizou termo de resposabilidades dos usuários? <input type="checkbox"> <br/>
+                        <br/>
+                        <br/>
+                        <h2>Gerenciamento das operações e comunicações</h2>
+                        <br>Realizou o plano de copias de segurança e restore? <input type="checkbox"> <br/>
+                        <br>Realizou o plano de gerenciamento de segurança de redes? <input type="checkbox"> <br/>
+                        <br>Realizou o plano de gerenciamento de serviços terceirizados? <input type="checkbox"> <br/>
+                        <br>Realizou o plano para manuseio de mídias? <input type="checkbox"> <br/>
+                        <br>Realizou o planejamento e aceitação dos sistemas? <input type="checkbox"> <br/>
+                        <br>Definiu procedimentos e responsabilidades operacionais? <input type="checkbox"> <br/>
+                        <br>Definiu proteção contra códigos maliciosos e códigos móveis? <input type="checkbox"> <br/>
+                        <br/>
+                        <br/>
+                        <h2>Gestão da continidade do negócio</h2>
+                        <br>Relizou levantamento dos aspectos da gestão da continuidade do negócio, relativos à Segurança da Informação? <input type="checkbox"> <br/>
+                        <br/>
+                        <br/>
+                        <h2>Gestão de ativos</h2>
+                        <br>Realizou a Classificação da informação? <input type="checkbox"> <br/>
+                        <br>Realizou o termo de responsabilidade para controle dos ativos de rede em caso de falhas? <input type="checkbox"> <br/>
+                        <br/>
+                        <br/>
+                        <h2>Gestão de Incidentes de Segurança da Informação</h2>
+                        <br>Realizou plnao de Gestão de Incidentes de Segurança da Informação e melhorias? <input type="checkbox"> <br/>
+                        <br>Definiu notificação de fragilidades e eventos de Segurança da Informação? <input type="checkbox"> <br/>
+                        <br/>
+                        <br/>
+                        <h2>Organizando a Segurança da Informação</h2>
+                        <br>Realizou um plano de Infraestrutura da Segurança da Informação? <input type="checkbox"> <br/>
+                        <br/>
+                        <br/>
+                        <h2>Política de Segurança</h2>
+                        <br>Definiu Política de Segurança da Informação? <input type="checkbox"> <br/>
+                        <br/>
+                        <br/>
+                        <h2>Segurança em Recursos Humanos</h2>
+                        <br>Definiu Potica de segurança a ser realizada Antes da contratação? <input type="checkbox"> <br/>
+                        <br>Definiu Potica de segurança a ser realizada Durante a contratação? <input type="checkbox"> <br/>
+                        <br>Definiu Potica de segurança a ser realizada no Encerramento ou mudança da contratação? <input type="checkbox"> <br/>
+                        <br/>
+                        <br/>
+                        <h2>Segurança física e do ambiente</h2>
+                        <br>Definiu formas para proteção à Áreas seguras? <input type="checkbox"> <br/>
+                        <br>Definiu Segurança de equipamentos? <input type="checkbox"> <br/>
+                        <br/>
+                        <br/>
+        
                     </div>
-                    <div class="col-lg-7 col-md-6">
-                        <div class="section-header text-left">
-                            <p>Checklist da Norma ISO 27.001</p>
-                            <h2>Aquisição, desenvolvimento e manutenção de sistemas de informação</h2>
-                            <br>Realizou a implantação de Controles criptográficos? <input type="checkbox"> <br/>
-                            <br>Definiu um plano para gestão de vulnerabilidades técnicas? <input type="checkbox"> <br/>
-                            <br>Realizou analise quanto ao processamento correto de aplicações? <input type="checkbox"> <br/>
-                            <br>Realizou analise de requisitos para segurança de Sistemas de Informação? <input type="checkbox"> <br/>
-                            <br>Realizou plano de segurança para os arquivos do sistema? <input type="checkbox"> <br/>
-                            <br>Definiu Escopo para segurança em processos de desenvolvimento e de suporte? <input type="checkbox"> <br/>
-                            <br/>
-                            <br/>
-                            <h2>Conformidade</h2>
-                            <br>Realizou termo de conformidade com normas e políticas de Segurança de Informação e conformidade técnica? <input type="checkbox"> <br/>
-                            <br>Realizou termo de conformidade com requisitos legais? <input type="checkbox"> <br/>
-                            <br>Realizou termo de considerações quanto à auditoria de Sistemas de Informação? <input type="checkbox"> <br/>
-                            <br/>
-                            <br/>
-                            <h2>Controle de acessos</h2>
-                            <br>Definiu plano de controle de acessos para computação móvel e trabalho remoto? <input type="checkbox"> <br/>
-                            <br>Definiu plano de controle de acesso à aplicação e à informação? <input type="checkbox"> <br/>
-                            <br>Definiu plano de controle de acesso à rede? <input type="checkbox"> <br/>
-                            <br>Definiu plano de controle de acesso ao sistema operacional? <input type="checkbox"> <br/>
-                            <br>Definiu plano de gerenciamento de acesso do usuário? <input type="checkbox"> <br/>
-                            <br>Realizou levantamento de requisitos de negócio para controle de acesso? <input type="checkbox"> <br/>
-                            <br>Realizou termo de resposabilidades dos usuários? <input type="checkbox"> <br/>
-                            <br/>
-                            <br/>
-                            <h2>Gerenciamento das operações e comunicações</h2>
-                            <br>Realizou o plano de copias de segurança e restore? <input type="checkbox"> <br/>
-                            <br>Realizou o plano de gerenciamento de segurança de redes? <input type="checkbox"> <br/>
-                            <br>Realizou o plano de gerenciamento de serviços terceirizados? <input type="checkbox"> <br/>
-                            <br>Realizou o plano para manuseio de mídias? <input type="checkbox"> <br/>
-                            <br>Realizou o planejamento e aceitação dos sistemas? <input type="checkbox"> <br/>
-                            <br>Definiu procedimentos e responsabilidades operacionais? <input type="checkbox"> <br/>
-                            <br>Definiu proteção contra códigos maliciosos e códigos móveis? <input type="checkbox"> <br/>
-                            <br/>
-                            <br/>
-                            <h2>Gestão da continidade do negócio</h2>
-                            <br>Relizou levantamento dos aspectos da gestão da continuidade do negócio, relativos à Segurança da Informação? <input type="checkbox"> <br/>
-                            <br/>
-                            <br/>
-                            <h2>Gestão de ativos</h2>
-                            <br>Realizou a Classificação da informação? <input type="checkbox"> <br/>
-                            <br>Realizou o termo de responsabilidade para controle dos ativos de rede em caso de falhas? <input type="checkbox"> <br/>
-                            <br/>
-                            <br/>
-                            <h2>Gestão de Incidentes de Segurança da Informação</h2>
-                            <br>Realizou plnao de Gestão de Incidentes de Segurança da Informação e melhorias? <input type="checkbox"> <br/>
-                            <br>Definiu notificação de fragilidades e eventos de Segurança da Informação? <input type="checkbox"> <br/>
-                            <br/>
-                            <br/>
-                            <h2>Organizando a Segurança da Informação</h2>
-                            <br>Realizou um plano de Infraestrutura da Segurança da Informação? <input type="checkbox"> <br/>
-                            <br/>
-                            <br/>
-                            <h2>Política de Segurança</h2>
-                            <br>Definiu Política de Segurança da Informação? <input type="checkbox"> <br/>
-                            <br/>
-                            <br/>
-                            <h2>Segurança em Recursos Humanos</h2>
-                            <br>Definiu Potica de segurança a ser realizada Antes da contratação? <input type="checkbox"> <br/>
-                            <br>Definiu Potica de segurança a ser realizada Durante a contratação? <input type="checkbox"> <br/>
-                            <br>Definiu Potica de segurança a ser realizada no Encerramento ou mudança da contratação? <input type="checkbox"> <br/>
-                            <br/>
-                            <br/>
-                            <h2>Segurança física e do ambiente</h2>
-                            <br>Definiu formas para proteção à Áreas seguras? <input type="checkbox"> <br/>
-                            <br>Definiu Segurança de equipamentos? <input type="checkbox"> <br/>
-                            <br/>
-                            <br/>
-                        </div>
-                        <div class="checklist-text">
-                            
-                        </div>
+                </div>
+                <div class="row align-items-center">
+                    <button class="collapsible">ISO 27002</button>
+                    <div class="content-checklist">
+                        <!-- <p>Checklist da Norma ISO 27.001</p> -->
+                        <h2>Aquisição, desenvolvimento e manutenção de sistemas de informação</h2>
+                        <br>Controles criptográficos: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Gestão de vulnerabilidades técnicas: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Processamento correto de aplicações: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Requisitos de segurança de Sistemas de Informação: <input type="checkbox" id="checkbox1"
+                            class="save-cb-state" value="yes"> <br />
+                        <br>Segurança dos arquivos do sistema: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Segurança em processos de desenvolvimento e de suporte: <input type="checkbox" id="checkbox1"
+                            class="save-cb-state" value="yes"> <br />
+                        <br />
+                        <br />
+                        <h2>Conformidade</h2>
+                        <br>Conformidade com normas e políticas de Segurança de Informação e conformidade técnica: <input
+                            type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Conformidade com requisitos legais: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Considerações quanto à auditoria de Sistemas de Informação: <input type="checkbox" id="checkbox1"
+                            class="save-cb-state" value="yes"> <br />
+                        <br />
+                        <br />
+                        <h2>Controle de acessos</h2>
+                        <br>Computação móvel e trabalho remoto: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Controle de acesso à aplicação e à informação: <input type="checkbox" id="checkbox1"
+                            class="save-cb-state" value="yes"> <br />
+                        <br>Controle de acesso à rede: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Controle de acesso ao sistema operacional: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes">
+                        <br />
+                        <br>Gerenciamento de acesso do usuário: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Requisitos de negócio para controle de acesso: <input type="checkbox" id="checkbox1"
+                            class="save-cb-state" value="yes"> <br />
+                        <br>Resposabilidades dos usuários: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br />
+                        <br />
+                        <h2>Gerenciamento das operações e comunicações</h2>
+                        <br>Copias de segurança: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Gerenciamento de segurança de redes: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Gerenciamento de serviços terceirizados: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes">
+                        <br />
+                        <br>Manuseio de mídias: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Monitoramento: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Planejamento e aceitação dos sistemas: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes">
+                        <br />
+                        <br>Procedimentos e responsabilidades operacionais: <input type="checkbox" id="checkbox1"
+                            class="save-cb-state" value="yes"> <br />
+                        <br>Plroteção contra códigos maliciosos e códigos móveis: <input type="checkbox" id="checkbox1"
+                            class="save-cb-state" value="yes"> <br />
+                        <br>Troca de informações: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br />
+                        <br />
+                        <h2>Gestão da continidade do negócio</h2>
+                        <br>Aspectos da gestão da continuidade do negócio, relativos à Segurança da Informação: <input
+                            type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br />
+                        <br />
+                        <h2>Gestão de ativos</h2>
+                        <br>Classificação da informação: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Responsabilidade pelos ativos: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br />
+                        <br />
+                        <h2>Gestão de Incidentes de Segurança da Informação</h2>
+                        <br>Gestão de Incidentes de Segurança da Informação e melhorias: <input type="checkbox" id="checkbox1"
+                            class="save-cb-state" value="yes"> <br />
+                        <br>Notificação de fragilidades e eventos de Segurança da Informação: <input type="checkbox"
+                            id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br />
+                        <br />
+                        <h2>Organizando a Segurança da Informação</h2>
+                        <br>Infraestrutura da Segurança da Informação: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes">
+                        <br />
+                        <br>Partes externas: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br />
+                        <br />
+                        <h2>Política de Segurança</h2>
+                        <br>Política de Segurança da Informação: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br />
+                        <br />
+                        <h2>Segurança em Recursos Humanos</h2>
+                        <br>Antes da contratação: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Durante a contratação: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Encerramento ou mudança da contratação: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes">
+                        <br />
+                        <br />
+                        <br />
+                        <h2>Segurança física e do ambiente</h2>
+                        <br>Áreas seguras: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br>Segurança de equipamentos: <input type="checkbox" id="checkbox1" class="save-cb-state" value="yes"> <br />
+                        <br />
+                        <br />
+        
                     </div>
                 </div>
             </div>
         </div>
+        
         <!-- checklist End -->
 
 
+        <script>
+            // Avoid scoping issues by encapsulating code inside anonymous function
+            (function() {
+              // variable to store our current state
+              var cbstate;
+              
+              // bind to the onload event
+              window.addEventListener('load', function() {
+                // Get the current state from localstorage
+                // State is stored as a JSON string
+                cbstate = JSON.parse(localStorage['CBState'] || '{}');
+              
+                // Loop through state array and restore checked 
+                // state for matching elements
+                for(var i in cbstate) {
+                  var el = document.querySelector('input[name="' + i + '"]');
+                  if (el) el.checked = true;
+                }
+              
+                // Get all checkboxes that you want to monitor state for
+                var cb = document.getElementsByClassName('save-cb-state');
+              
+                // Loop through results and ...
+                for(var i = 0; i < cb.length; i++) {
+              
+                  //bind click event handler
+                  cb[i].addEventListener('click', function(evt) {
+                    // If checkboxe is checked then save to state
+                    if (this.checked) {
+                      cbstate[this.name] = true;
+                    }
+                
+                // Else remove from state
+                    else if (cbstate[this.name]) {
+                      delete cbstate[this.name];
+                    }
+                
+                // Persist state
+                    localStorage.CBState = JSON.stringify(cbstate);
+                  });
+                }
+              });
+            })();
+            </script>
+        
+        
+        
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+                var i;
 
-<!-- Footer Start -->
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                            content.style.display = "none";
+                        } else {
+                            content.style.display = "block";
+                        }
+                    });
+                } 
+            </script>
 
+        <!-- Footer Start -->
     <div class="footer wow fadeIn" data-wow-delay="0.3s">
         <div class="container-fluid">
             <div class="container">
@@ -179,13 +341,7 @@
                         <p>(31) 99988-5522</p>
                         <p>contato@checklistinterativa.com.br</p>
                     </div>
-                    <!-- <div class="footer-social">
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-youtube"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div> -->
+                    
                 </div>
             </div>
             <div class="container copyright">
@@ -209,6 +365,7 @@
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
         <script src="lib/isotope/isotope.pkgd.min.js"></script>
         <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="http://code.jquery.com/jquery.js"></script>
         
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>

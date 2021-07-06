@@ -158,9 +158,18 @@
 }
 /*Service CSS*/
 
+.textos {
+    box-sizing: border-box;
+    margin: 200px;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: #c7e4dd71;
+}
+
 .textos h1 {
 
-    font-family: Roboto;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -175,7 +184,7 @@
     align-items: center;
     justify-content: center;
     margin: 1%;
-    font-family: Roboto;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
