@@ -79,6 +79,15 @@
     background-color: rgb(14, 123, 131);
   }
 
+#btn-logout {
+    border: solid 1px;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 140px;
+    height: 50px;
+}
+
+
 /**********************************/
 /*********** Nav Bar CSS **********/
 /**********************************/
